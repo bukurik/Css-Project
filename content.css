@@ -1,0 +1,58 @@
+header {
+  color: #133469;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-weight: 1.6px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+tr, th, td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100% \9 ;
+  margin-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .img-fluid {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=content.css.map */

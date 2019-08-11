@@ -1,0 +1,63 @@
+$marginBottom:40px;
+$fontType:"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+header {
+        color:#133469;
+        text-align:center;
+        font-family:$fontType;
+        font-size:40px;
+        line-weight:1.6px;
+        margin-bottom:$marginBottom;
+        margin-top:20px;
+}
+
+.container{
+            display:flex;
+            flex-wrap:wrap;
+            margin-bottom:$marginBottom;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    max-width:100%;
+
+}
+%paragraph{
+        text-align: center;
+        font-family:$fontType;
+        font-size:16px;
+        margin-bottom:$marginBottom;
+}
+p{
+    @extend %paragraph;
+}
+
+tr, th, td{
+        border:2px solid black;
+        padding:5px;
+
+}
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    max-width:100% \9;
+    margin-bottom:40px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom:$marginBottom;
+}
+
+
+@media (max-width: 600px) {
+    .img-fluid{
+        display: none;
+   }
+    }

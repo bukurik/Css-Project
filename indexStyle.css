@@ -1,0 +1,60 @@
+header {
+        color:#133469;
+        text-align:center;
+        font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size:40px;
+        font-weight:bold;
+        margin-bottom:20px;
+        margin-top:20px;
+}
+
+
+.container{
+            font-family:"Arial";
+            font-size; 16px;
+            display:flex;
+            flex-wrap:wrap;
+            margin-bottom:20px
+}
+
+.img-fluid{
+    width:50%
+    max-width:100% \9;
+    height:auto;
+}
+
+
+#contentText{
+        text-align: center;
+        font-family:"Arial";
+        font-size: 30px;
+        font-weight:bold;
+        margin-bottom:40px
+}
+
+.tableContent{
+        font-size:18px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:40px
+}
+
+
+
+
+ol::hover{
+            color:black;
+            text-decoration: underline;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom:40px
+}
+
+@media (max-width: 600px) {
+    .img-fluid{
+        display: none;
+    }
